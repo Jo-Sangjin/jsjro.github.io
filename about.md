@@ -2,14 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+tags: [about]
 ---
 
-# 안녕하세요.
+[조상진](https://connut.com) 기술블로그 입니다.
 
-this is my **introduction**.
-
-**name : 조상진**
-
-**e-mail : racotim@gmail.com**
-
-stack : JAVA(SPRING, E-GOV), DB(ORACLE, MS-SQL, MYSQL), JAVASCRIPT, CSS
+Powered by [GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
