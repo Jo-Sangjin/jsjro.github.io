@@ -186,3 +186,14 @@ Install MariaDB
 ```
 yum install MariaDB-server MariaDB-client -y
 ```
+
+Start MariaDB and enable autostart on system boot with systemctl.
+```
+systemctl enable mariadb
+systemctl start mariadb
+```
+
+Run the mysql_secure_installation script which will perform several security related tasks:
+```
+$ mysql_secure_installation
+```
