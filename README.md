@@ -1,2 +1,2 @@
 ### jsjro.github.io
-https://connut.com
+https://jo-sangjin.github.io/jsjro.github.io/
