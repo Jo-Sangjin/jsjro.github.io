@@ -1,2 +1,2 @@
 ### jsjro.github.io
-https://jo-sangjin.github.io
+https://jsjro.github.io
