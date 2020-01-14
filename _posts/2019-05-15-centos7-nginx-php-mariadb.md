@@ -4,10 +4,6 @@ title:  "CentOS 7 Minimal Nginx, Php, MariaDB Install"
 date:   2019-05-14 14:00:00 +0900
 ---
 
-CentOS 7 Minimal Nginx, Php, MariaDB Install
-=================================
-
-
 CentOS 7
 ------------------------
 

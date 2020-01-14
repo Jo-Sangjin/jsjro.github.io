@@ -7,6 +7,7 @@ Gemfile.lock
 
 ### Gulp ###
 package.json
+package-lock.json
 /node_modules/
 
 
@@ -98,7 +99,3 @@ example/_site
 node_modules
 npm-debug.log*
 vendor/bundle
-
-
-### custom ###
-package-lock.json

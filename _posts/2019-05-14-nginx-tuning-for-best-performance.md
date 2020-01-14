@@ -3,8 +3,6 @@ layout: archive
 title:  "NGINX Tuning For Best Performance"
 date:   2019-05-14 14:00:00 +0900
 ---
-NGINX Tuning For Best Performance
-=================================
 
 For this configuration you can use web server you like, i decided, because i work mostly with it to use nginx.
 
