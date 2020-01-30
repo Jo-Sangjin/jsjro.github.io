@@ -10,26 +10,26 @@ date:   2020-01-30 00:00:00 +0900
 
 1. 젠킨스 볼륨 생성 (호스트 서버)
 
-```bash
-# I'll keep it as "jenkins", you can use "jenkins_home" if you wish
-
-mkdir -p $HOME/jenkins
-```
+    ```bash
+    # I'll keep it as "jenkins", you can use "jenkins_home" if you wish
+    
+    mkdir -p $HOME/jenkins
+    ```
 
 2. 젠킨스 이미지 실행
 
-```bash
-# if you're using other names, replace $HOME/jenkins with your choice
-# in case you want to change port, use this
-# -e JENKINS_OPTS="--httpPort=80" (remember to change 8080:8080 below to 80:80)
-
-docker container run \
---name jenkins \
--p 8080:8080 -p 50000:50000 \
--v $HOME/jenkins:/var/jenkins_home \
--d \
-jenkins
-```
+    ```bash
+    # if you're using other names, replace $HOME/jenkins with your choice
+    # in case you want to change port, use this
+    # -e JENKINS_OPTS="--httpPort=80" (remember to change 8080:8080 below to 80:80)
+    
+    docker container run \
+    --name jenkins \
+    -p 8080:8080 -p 50000:50000 \
+    -v $HOME/jenkins:/var/jenkins_home \
+    -d \
+    jenkins
+    ```
 
 3. 화면에 보이는 비밀번호 확인
 
@@ -45,38 +45,39 @@ jenkins
 
 2. 젠킨스 컨테이너 로그인
 
-```bash
-#using host's root with -u 0
-
-docker container exec -u 0 -it jenkins bash
-```
+    ```bash
+    #using host's root with -u 0
+    
+    docker container exec -u 0 -it jenkins bash
+    ```
 
 3. 1. 에서 복사 한 링크 파일 다운로드
 
-```bash
-# inside the container, using 2.89.2 as example
-wget http://updates.jenkins-ci.org/download/war/2.204.2/jenkins.war
-```
+    ```bash
+    # inside the container, using 2.89.2 as example
+    wget http://updates.jenkins-ci.org/download/war/2.204.2/jenkins.war
+    ```
 
 4. 다운로드 파일 이동
 
-```bash
-mv ./jenkins.war /usr/share/jenkins
-```
+    ```bash
+    mv ./jenkins.war /usr/share/jenkins
+    ```
 
 5. 권한 조정
 
-```bash
-chown jenkins:jenkins /usr/share/jenkins/jenkins.war
-```
+    ```bash
+    chown jenkins:jenkins /usr/share/jenkins/jenkins.war
+    ```
+   
 6. 컨테이너 나가기 및 재시작
 
-```bash
-# exit contaienr (inside container)
-exit
-# restart container (from your server)
-docker container restart jenkins
-```
+    ```bash
+    # exit contaienr (inside container)
+    exit
+    # restart container (from your server)
+    docker container restart jenkins
+    ```
 
 ## In case if you see a deprecated protocols: JNLP-connect, JNLP2-connect warning 노출시 해결 방안
 
