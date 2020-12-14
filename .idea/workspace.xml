@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77a15a6e-0722-49bf-9ded-781ba93b0156" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/svg/favicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsjro.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsjro.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/externals/styling.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/externals/styling.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +29,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/svg" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28735632" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -37,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jsjro\Documents\GitHub\jsjro.github.io\assets\svg" />
       <recent name="C:\Users\jsjro\Documents\GitHub\jsjro.github.io" />
     </key>
   </component>
@@ -62,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607922612581</updated>
       <workItem from="1607922614146" duration="456000" />
-      <workItem from="1607923091347" duration="5851000" />
+      <workItem from="1607923091347" duration="6378000" />
     </task>
     <servers />
   </component>
