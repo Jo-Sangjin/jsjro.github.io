@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 블로그
-subtitle: 대충 정리해논 블로그
+subtitle: 📘
 ---
 
 <div>
