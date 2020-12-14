@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: page
 title:  "CentOS 7 Minimal Nginx, Php, MariaDB Install"
-date:   2019-05-14 14:00:00 +0900
+date:   2019-05-15 14:00:00 +0900
+categories: ["general"]
 ---
 
 CentOS 7

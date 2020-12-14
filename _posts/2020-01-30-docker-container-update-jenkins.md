@@ -1,7 +1,8 @@
 ---
-layout: archive
+layout: page
 title:  "New Jenkins Container And Update Jenkins (Docker)"
 date:   2020-01-30 00:00:00 +0900
+categories: ["general"]
 ---
 
 ![docker_jenkins_logo](/assets/images/2020-01-30-docker-container-update-jenkins/01.png)
