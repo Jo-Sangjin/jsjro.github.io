@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 이력서
+title: resume
 subtitle: -
 ---
 

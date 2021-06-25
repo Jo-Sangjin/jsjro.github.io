@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 블로그
+title: posts
 subtitle: -
 ---
 
