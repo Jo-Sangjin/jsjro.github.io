@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 이력서
-subtitle: 🙇‍♂️
+subtitle: -
 ---
 
 ### 프로젝트

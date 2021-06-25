@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 블로그
-subtitle: 📘
+subtitle: -
 ---
 
 <div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: jsjro
-subtitle: ☕
+subtitle: -
 sitemap:
   priority: 0.9
 ---
@@ -9,5 +9,5 @@ sitemap:
 <img id="about-img">
 
 <div id="describe-text">
-	<p>클린 코드를 추구하자.</p>
+	<p> Clean Code </p>
 </div>
