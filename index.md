@@ -10,9 +10,6 @@ sitemap:
 
 <div id="describe-text">
 	<p> Clean Code </p>
-</div>
-
-<div class="about__devider">-----</div>
-<div class="about__text">
-    <strong> 8 years ing... </strong>
+    <br/>
+    <p>8 years ing...</p>
 </div>
